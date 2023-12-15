@@ -5,12 +5,14 @@ function container(){
 
     if(passcodeInput == PASSCODE){
         alert('Open napud ka kaith?')
-        window.location.href='calculator.html'
+        window.location.href='clyde.html'
 
 
     }else{
-    alert('Kaith Late patuli')
+    alert('Incorrect Password')
     }
+
+    
     
 
 }
